@@ -4,7 +4,7 @@ function Footer() {
 
     return (
         <div className="footer">
-            Made with 💗 by <span>'YOUR NAME'</span>
+            Made with 💗 by Sachin Dsilva.
         </div>
     );
 }

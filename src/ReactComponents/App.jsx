@@ -17,6 +17,7 @@ function App() {
         setItems((previousItems) => {
             return [...previousItems, inputText]
         });
+        setInputText("");
 
     }
 
