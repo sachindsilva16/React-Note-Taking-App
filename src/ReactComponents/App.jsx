@@ -3,6 +3,23 @@ import Header from "./Header";
 import Footer from "./Footer"
 
 function App() {
+
+    const [inputText, setInputText] = React.useState();
+    const [items, setItems] = React.useState([]);
+
+
+    function handleNote(event) {
+        const newValue = event.target.value;
+        setInputText(inputText);
+    }
+
+    function addItems() {
+        setItems((previousItems) => {
+            return [...previousItems, inputText]
+        });
+
+    }
+
     return (
         <div className="main-container">
 
@@ -11,14 +28,26 @@ function App() {
 
             {/* <header className="header-section">My To-Do App</header> */}
 
+
+
+
+            {/* ------Note Pad----- */}
+
             <div className="container">
                 <div className="form">
-                    <input type="text"/>
-                    <button><span>Add</span></button>
+                    <input type="text"
+                    onChange={handleNote}
+                    value={inputText}/>
+
+
+                    
+                    <button onClick={addItems}><span>Add</span></button>
 
                     <div>
                         <ul>
-                            <li></li>
+                            {items.map(noteItems => {
+                                return <li>{noteItems}</li>
+                            })}
                         </ul>
                     </div>
                 </div>
