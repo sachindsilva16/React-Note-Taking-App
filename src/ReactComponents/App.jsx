@@ -4,13 +4,13 @@ import Footer from "./Footer"
 
 function App() {
 
-    const [inputText, setInputText] = React.useState();
-    const [items, setItems] = React.useState([]);
+    var [inputText, setInputText] = React.useState("");
+    var [items, setItems] = React.useState([]);
 
 
     function handleNote(event) {
         const newValue = event.target.value;
-        setInputText(inputText);
+        setInputText(newValue);
     }
 
     function addItems() {
@@ -35,12 +35,10 @@ function App() {
 
             <div className="container">
                 <div className="form">
-                    <input type="text"
-                    onChange={handleNote}
-                    value={inputText}/>
+                    <input type="text" onChange={handleNote} value={inputText} />
 
 
-                    
+
                     <button onClick={addItems}><span>Add</span></button>
 
                     <div>
