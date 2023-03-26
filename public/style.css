@@ -77,7 +77,7 @@ font-family: 'Tapestry', cursive; */
 button {
     padding: 0;
     border: none;
-    font-family: "Architects Daughter", cursive;
+    font-family: 'McLaren', cursive;
     text-decoration: none;
     padding-bottom: 3px;
     border-radius: 5px;
@@ -101,6 +101,7 @@ span {
 }
 
 li {
+    font-family: 'McLaren', cursive;
     text-align: left;
     position: relative;
     padding: 0.5rem;
