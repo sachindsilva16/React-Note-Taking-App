@@ -85,6 +85,13 @@ http://localhost:3000/
 
 <img align="center" src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/default-react-app.png" width="100%" height="70%">
 
+- **To terminate this running server**, on your existing terminal, press **`ctrl+c`** or **`ctrl+z`** on your keyboard.
+
+
+## ` # Step 4 `
+
+- Now you have successfully developed a local environment for your React-Application. You're now good to go to **code**.....
+
 
 
 
