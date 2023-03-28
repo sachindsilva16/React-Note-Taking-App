@@ -81,7 +81,9 @@ http://localhost:3000/
 
 > **Warning**: Do not try to make any default changes in package.json until then or else you might get cluttered.
 
--
+- In the browser, you'll see the following React Template Project running on localhost:
+
+<img src="" width="100%">
 
 
 
