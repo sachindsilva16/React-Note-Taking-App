@@ -1,0 +1,142 @@
+/*
+
+    ----CUSTOM FONTS FOR 'font-family' Prop---
+
+font-family: 'Anton', sans-serif;
+font-family: 'Bai Jamjuree', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'McLaren', cursive;
+font-family: 'Tapestry', cursive; 
+
+*/
+
+/*                  ---DEFAULT BROWSER SETTINGS---                    */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container {
+    background-color: #F7DB6A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/*                  ---HEADER SECTION---                    */
+
+
+
+.header-section {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    font-family: 'McLaren', cursive;
+    transform: rotate(2deg);
+    padding: 0.2rem 1.2rem;
+    border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+    background-color: #fdcb6e;
+    font-size: 1.5rem;
+
+}
+
+
+/*                  ---CONTAINER---                    */
+
+
+.container {
+    width: 100%;
+    height: auto;
+    min-height: 450px;
+    max-width: 500px;
+    min-width: 350px;
+    background: #f5fafa;
+    /* background-size: 25px 25px; */
+    border-radius: 20px;
+    box-shadow: 4px 3px 7px 2px #00000040;
+    padding: 1rem;
+}
+
+
+
+
+.form input {
+    box-sizing: border-box;
+    background-color: transparent;
+    font-family: 'McLaren', cursive;
+    padding: 0.7rem;
+    border-bottom-right-radius: 15px 3px;
+    border-bottom-left-radius: 3px 15px;
+    border: solid 3px transparent;
+    border-bottom: dashed 3px #fdcb6e;
+    font-size: 1rem;
+    color: hsla(260, 2%, 25%, 0.7);
+    width: 70%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/*                  ---BUTTON : Add---                    */
+
+
+
+button {
+    padding: 0;
+    border: none;
+    font-family: 'McLaren', cursive;
+    text-decoration: none;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    background-color: #ffeaa7;
+    background: #ffeaa7;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    border-radius: 5px;
+    border: 2px solid hsl(198, 1%, 29%);
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transform: scale(0.95);
+}
+
+
+span {
+    font-style: italic;
+}
+
+li {
+    font-family: 'McLaren', cursive;
+    text-align: left;
+    position: relative;
+    padding: 0.5rem;
+    max-width: 200px;
+    list-style: square;
+    left: 37px;
+
+}
+
+
+
+/*                  ---FOOTER SECTION---                    */
+
+.footer {
+    position: relative;
+    top: 20px;
+    display: block;
+    margin: 30px auto 0px auto;
+    width: 100%;
+    background-color: #fdcb6e;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'McLaren', cursive;
+}
