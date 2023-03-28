@@ -1,4 +1,4 @@
-# `Append the poster image here`
+# `Append the workshop-poster image here`
 
 <hr>
 
