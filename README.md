@@ -22,11 +22,28 @@
 
 - Once you're done with the above setup,follow this very next step **carefully**.
 
-- To install the base project, run the following command:
+> **Note** : Make sure that you are in system directory. For Windows user --> change directory to 'C:\ ' 
 
-**Note**
+<br>
+
+- To install the base project, copy and run the following command:
 
 
+``` 
+npx create-react-app to-do-list-app
+```
+> This command wil kick off a build process that will download the base code along with a # of dependencies.
+
+- When the process finishes you will see a success message, that says : 
+
+
+![Output cmd](https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/output-cmd1.png)
+
+- Now your project has been setup in a new directory.Copy the following command to change into new directory.
+
+```
+cd to-do-list-app
+```
 
 
 
