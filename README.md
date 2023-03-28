@@ -67,7 +67,21 @@ npm install react react-dom react-scripts
 ```
 npm start
 ```
+> You might this as a output:
 
+![Alt npm-start-output](https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/npm-start-output.png)
+
+- If you're running the script locally, it will open the project in your default browser window and shifts the focus from the terminal to the browser.
+
+- If that doesn't happen, you can visit the following site **Copy the following clipboard** to see the site action.
+
+```
+http://localhost:3000/
+```
+
+> **Warning**: Do not try to make any default changes in package.json until then or else you might get cluttered.
+
+-
 
 
 
