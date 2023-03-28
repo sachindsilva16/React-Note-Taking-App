@@ -93,8 +93,12 @@ http://localhost:3000/
 - Now you have successfully developed a local environment for your React-Application. You're now good to go to **code**.....
 
 **Rest of changes will be discussed during the live-demo session...**
+<hr>
+<br>
 
-> If you're facing some trouble during the installation process, Visit **[stack-overflow](https://stackoverflow.com/)** or any other troubleshooting domain sites.
+> **Note**: If you're facing some trouble during the installation process, Visit **[stack-overflow](https://stackoverflow.com/)** or any other troubleshooting domain sites.
+
+<hr>
 
 
 
