@@ -22,7 +22,7 @@
 
 - Once you're done with the above setup,follow this very next step **carefully**.
 
-> **Note** : Make sure that you are in system directory. For Windows user --> change directory to 'C:\ ' 
+> **Note** : Make sure that you are in os directory. For Windows user --> change directory to 'C:\ ' 
 
 <br>
 
