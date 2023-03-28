@@ -83,7 +83,7 @@ http://localhost:3000/
 
 - In the browser, you'll see the following React Template Project running on localhost:
 
-<img align="center" src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/default-react-app.png" width="80%" height="70%">
+<img align="center" src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/default-react-app.png" width="100%" height="70%">
 
 
 
