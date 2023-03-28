@@ -44,6 +44,18 @@ npx create-react-app to-do-list-app
 ```
 cd to-do-list-app
 ```
+> You're now inside the root of your created project.At this point, you've created a new project and added all of the dependencies. But you haven't take any of actions to run the project.
+> You'll run the custom scripts to build and test the project.
+
+<br>
+
+## ` # Step 2 `
+
+- Copy and run the following command:
+
+```
+npm install react react-dom react-scripts
+```
 
 
 
