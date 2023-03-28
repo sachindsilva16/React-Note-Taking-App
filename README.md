@@ -56,6 +56,18 @@ cd to-do-list-app
 ```
 npm install react react-dom react-scripts
 ```
+> **Note** This could take some time depending upon your network-connection speed.
+
+- Once the above scripts have been successfully processed,you'll start the project on a live server
+
+## ` # Step 3 `
+
+- **Start the Project** by running the following command in the root of your project.For this, your root project is **to-do-list-app** directory. Be sure to open this in a seperate terminal or tab, since this script will continue running as long as you self-terminate it.
+
+```
+npm start
+```
+
 
 
 
