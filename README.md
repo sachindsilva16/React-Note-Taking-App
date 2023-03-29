@@ -98,7 +98,7 @@ http://localhost:3000/
 
 > **Note**: If you're facing some trouble during the installation process, Visit **[stack-overflow](https://stackoverflow.com/)** or any other troubleshooting domain sites.
 
-<hr>
+**----------------------------------------------------------------------------------------------------------------------------------------------------------------- **
 
 
 
