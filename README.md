@@ -3,10 +3,11 @@
 </kbd>
 
 <hr>
-
+<kbd>
 <div>
 <a href="url"><img src="https://github.com/sachindsilva16/Reactjs-Workshop/blob/main/Images/header-image.png"  height="auto" width="auto" style="border-radius:100%;"></a>
 </div>
+</kbd>
 
 <br>
 
