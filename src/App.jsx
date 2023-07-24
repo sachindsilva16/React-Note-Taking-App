@@ -27,12 +27,13 @@ export default function App() {
   }
 
   function handleAddNote() {
-    if (inputTitle.title==="" && inputTitle.content==="") {
+    if(inputTitle.title==="" && inputTitle.content===""){
       return null;
     } else {
       setNoteCard((previousValue) => {
         return [...previousValue, inputTitle];
       });
+    }
     setCount(count + 1);
     setInputTitle("");
     document.getElementById("titleId").value = "";
