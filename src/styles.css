@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Baloo+Bhai+2&family=Combo&family=Inter&family=Kanit:wght@100&family=Lacquer&family=Merriweather&family=Montserrat:wght@100;400&family=Poppins:wght@400;700&family=Roboto+Mono:wght@200&family=Rubik+Distressed&family=Rubik+Iso&family=Sacramento&family=Ubuntu&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0 16px;
+  font-family: "Inter";
+  background-color: #338c00;
+background-color: #fcfcfc;
+background-image: url("https://www.transparenttextures.com/patterns/always-grey.png");
+
+}
+
+
+header {
+  background: linear-gradient(
+    109.6deg,
+    rgb(80, 35, 217) 11.2%,
+    rgb(217, 35, 189) 91.1%
+  );
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "Poppins", cursive;
+  font-weight: bold;
+  text-shadow: 0 1px 7px violet;
+  user-select: none;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  /* height: 2.5rem; */
+}
+
+footer p {
+  color: #ccc;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  color: purple;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+form.create-note {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+form.create-note input,
+form.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+form.create-note button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: indigo;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 0 6px indigo;
+  cursor: pointer;
+  outline: none;
+}
+
+form.create-note button:hover {
+  transform: scale(1.3);
+  transition: all 0.5s;
+}
+
+/* #deleteButton {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  width: 65px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  padding: 0 6px;
+  border-radius: 7px;
+  box-shadow: 0 0 6px indigo;
+  background-color: indigo;
+  color: white;
+  font-weight: normal;
+  text-transform: capitalize;
+  font-size: 17px;
+} */
+
+.note button:hover {
+  font-weight: bold;
+
+  background-color: white;
+  color: purple;
+  transition: all 0.5s;
+  animation-timing-function: transition;
+  animation-duration: 0.9s;
+  transform: scale(1.1);
+}
+
+/* @keyframes rotate {
+  0% {
+    transform: rotate(0deg); */
+/* } */
+/* 25% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  } */
+/* 100% {
+    transform: rotate(360deg);
+  }
+} */
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  border: none;
+  width: 65px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  padding: 0 6px;
+  color: purple;
+}
+
+#titleId::placeholder {
+  color: purple;
+}
+
+.noteContainer {
+  padding: 10px 20px;
+}
+
+
+Fab {
+  background-color: purple;
+}
+Zoom {
+  transition:all 0.25s;
+}
