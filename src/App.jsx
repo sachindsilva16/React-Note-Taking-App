@@ -27,9 +27,12 @@ export default function App() {
   }
 
   function handleAddNote() {
-    setNoteCard((previousValue) => {
-      return [...previousValue, inputTitle];
-    });
+    if (inputTitle.title==="" && inputTitle.content==="") {
+      return null;
+    } else {
+      setNoteCard((previousValue) => {
+        return [...previousValue, inputTitle];
+      });
     setCount(count + 1);
     setInputTitle("");
     document.getElementById("titleId").value = "";
